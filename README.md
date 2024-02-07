@@ -19,6 +19,8 @@ Welcome to our College Community Website! This platform serves as a hub for stud
 1. Clone this repository.
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
-4. Start the server using `npm start`.
-5. Access the application at `http://localhost:3000`.
+4. Start the backend server and then the client using `npm start`.
+5. Add Mongo URL and key in .env file
+6. Access the application at `http://localhost:3000`.
+7. Backend is hosted at `http://localhost:4000`.
 
