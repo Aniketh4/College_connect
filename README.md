@@ -1,8 +1,7 @@
-# PostIt
-PostIt is a fully-featured social media web application, built with the MERN stack.  
+# College-Connect
+College Connect is a comprehensive web platform that fosters communication and collaboration within college communities. With a Reddit-style interface and various features such as Lost and Found, Hostel Finder, Q&A, and more, College Connect aims to enhance the college experience for students and faculty alike. 
 
-Deployed at: https://post-it-heroku.herokuapp.com/  
-![GIF of PostIt walkthrough](https://media.giphy.com/media/9tnaXy42T4NzSJdHhP/giphy.gif)
+Check it out at: https://post-it-heroku.herokuapp.com/  
 
 ## Features
 - Create, read, update and delete posts
@@ -12,9 +11,7 @@ Deployed at: https://post-it-heroku.herokuapp.com/
 - Sign up and login using JWT for authentication
 - Private message users in real-time using socket.io
 - View profiles of users and browse through their posts, liked posts and comments
-- Infinite scrolling 
 - Sort posts by attributes such as like count, comment count and date created
-- Profanity filtering and posting/commenting cooldowns
 - Update bio which can be viewed by other users
 - Search for posts by their title
 - View the users who liked a particular post
@@ -23,11 +20,11 @@ Deployed at: https://post-it-heroku.herokuapp.com/
 ## Installation and usage
 1) Clone this repository  
 ```
-git clone https://github.com/ihtasham42/social-media-app.git
+git clone https://github.com/aniketh4/College_connect
 ```
 2) Install dependencies  
 ```
-cd social-media-app  
+cd College-connect  
 npm install
 cd client
 npm install
