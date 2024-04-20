@@ -1,8 +1,6 @@
 # College-Connect
 College Connect is a comprehensive web platform that fosters communication and collaboration within college communities. With a Reddit-style interface and various features such as Lost and Found, Hostel Finder, Q&A, and more, College Connect aims to enhance the college experience for students and faculty alike. 
 
-Check it out at: https://post-it-heroku.herokuapp.com/  
-
 ## Features
 - Create, read, update and delete posts
 - Like and unlike posts
