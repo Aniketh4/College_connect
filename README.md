@@ -1,9 +1,5 @@
 <h1>College Community Website</h1>
 
-<h2>Overview</h2>
-
-<p>Welcome to our College Community Website! This platform serves as a hub for students to engage in discussions, find hostels, and report lost/found items. Built using the MERN stack, it offers a user-friendly interface akin to Reddit.</p>
-
 <h2>Features</h2>
 
 <ul>
