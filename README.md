@@ -31,3 +31,11 @@
     <li>Backend is hosted at <a href="http://localhost:4000">http://localhost:4000</a>.</li>
   </ul>
 </ol>
+
+![Screenshot 2024-08-16 085756](https://github.com/user-attachments/assets/b59377c0-c9e3-4aa7-a0e7-e5381accb9c1)
+
+![Screenshot 2024-08-16 085956](https://github.com/user-attachments/assets/1e3322f3-1471-4d44-8e44-5ce3538c4016)
+
+![Screenshot 2024-08-16 085905](https://github.com/user-attachments/assets/9845837e-5ca7-48ab-9989-3097180c982c)
+
+![Screenshot 2024-08-16 085835](https://github.com/user-attachments/assets/28563e76-a758-48f2-93ba-ae54c589325f)
