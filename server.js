@@ -17,20 +17,24 @@ dotenv.config();
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
   cors: {
-    origin: ["http://localhost:3000", "https://post-it-heroku.herokuapp.com"],
+    origin: ["http://localhost:3000"],
   },
 });
 
 io.use(authSocket);
 io.on("connection", (socket) => socketServer(socket));
 
-mongoose.connect(
-  process.env.MONGO_URI,
-  { useNewUrlParser: true, useUnifiedTopology: true },
-  () => {
-    console.log("MongoDB connected");
-  }
-);
+// ... existing code ...
+mongoose.connect(process.env.MONGO_URI, { 
+  useNewUrlParser: true, 
+  useUnifiedTopology: true 
+})
+.then(() => {
+  console.log("MongoDB connected successfully");
+})
+.catch((err) => {
+  console.error("MongoDB connection error:", err);
+});
 
 httpServer.listen(process.env.PORT || 4000, () => {
   console.log("Listening");
